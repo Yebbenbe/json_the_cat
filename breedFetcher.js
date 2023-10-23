@@ -9,7 +9,7 @@ request(apiUrl, (error, response, body) => {
   if (error) {
     console.error('Error:', error);
   } else {
-    onst data = JSON.parse(body);
+    const data = JSON.parse(body);
     console.log('Parsed Response Data:', data);
   }
 });
